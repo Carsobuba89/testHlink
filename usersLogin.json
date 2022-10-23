@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "username": "userp@dominio.pt",
+        "password": 123
+    },
+    {
+        "id":2,
+        "username": "user2@dominio.pt",
+        "password": 321
+    },
+    {
+        "id":3,
+        "username": "formacao",
+        "password": "123"
+    }
+]
