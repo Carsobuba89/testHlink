@@ -1,0 +1,49 @@
+
+#hero{
+    height: 100%;
+    background: #0782C8;
+    background: url("../images/fading-blue-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 90px 0;
+}
+.content{
+    width: 450px;
+    background: rgb(230, 229, 229);
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+.title{
+    opacity: .5;
+    font-weight: bolder;
+}
+.form-check-input:checked{
+    background-color: grey;
+    border: none;
+    border-radius: 0;
+}
+
+.form-check-label{
+    color: grey;
+}
+.forgot-link{
+    text-decoration: none;
+    color: #dfa907;
+}
+.sign-up{
+    color: rgb(226, 225, 225);
+}
+.sign-up a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-lg{
+    padding: 10px 90px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
