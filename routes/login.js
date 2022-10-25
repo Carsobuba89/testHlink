@@ -10,6 +10,10 @@ async function getUsersLogin(){
 
 router.get("/", async (req, res) => {
     res.send( await getUsersLogin() );
-})
+});
+
+router.post('/login', (req, res) => {
+
+});
 
 module.exports = router;
