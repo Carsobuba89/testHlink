@@ -9,7 +9,7 @@ const userLoginRouter = require("./routes/login");
 const productsRouter = require("./routes/products");
 
 const app = express();
-
+const jwt = require("jsonwebtoken");
 const bcrypt = require('bcrypt');
 const passport = require('passport');
 const flash = require('express-flash');
@@ -49,7 +49,15 @@ app.get('/register', (req, res) => {
     res.render('register')
 });
 
-app.get('/login', (req, res) => {
+/* app.get('/users', (req, res) => {
+    res.json(users);
+}); */
+
+/* app.get('/products', (req, res) => {
+    res.json(products);
+}); */
+
+app.get('/login', (req, res) => { 
     res.render('login')
 });
 
@@ -92,8 +100,6 @@ app.post('/login', passport.authenticate('local', {
 
 
 const port = 3000;
-
-/* const jwt = require("jsonwebtoken"); */
 
 //saida de dados nesta porta 3000
 app.listen(port, () => {
